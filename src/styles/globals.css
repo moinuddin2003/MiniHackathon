@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 240, 240, 240;
+  /* Light Gray */
+  --background-end-rgb: 255, 255, 255;
+  /* White */
+  --button-background: var(--background-start-rgb);
+  --button-text-color: var(--foreground-rgb);
+}
+
+/* Additional styling for the button */
+.button {
+  background-color: var(--button-background);
+  color: var(--button-text-color);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
